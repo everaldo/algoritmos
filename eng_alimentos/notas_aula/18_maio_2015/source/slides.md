@@ -9,12 +9,9 @@ Turma: Engenharia de Alimentos - 18/05/2015
 # Link dos Slides
 
 
-[http://tinyurl.com/m6vx7cw](http://tinyurl.com/m6vx7cw)
+[http://tinyurl.com/kovvez4](http://tinyurl.com/kovvez4)
 
 
-Github/Everaldo/
-Algoritmos/Eng Alimentos/
-Notas Aula/18 de Maio/
 
 ---
 
