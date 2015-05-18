@@ -1,0 +1,3 @@
+[submodule "eng_alimentos/notas_aula/18_maio_2015/source/avalanche"]
+	path = eng_alimentos/notas_aula/18_maio_2015/source/avalanche
+	url = https://github.com/akrabat/avalanche.git
