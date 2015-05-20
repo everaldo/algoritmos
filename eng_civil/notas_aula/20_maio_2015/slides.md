@@ -6,6 +6,11 @@ Aula: 20/05/2015
 
 Comandos de Repetição
 
+Slides disponíveis em:
+
+[http://tinyurl.com/slides20maio](http://tinyurl.com/slides20maio)
+
+
 ---
 
 # Lembretes
@@ -139,7 +144,8 @@ A condição é uma expressão que será avaliada pelo seu valor lógico (**VERD
 O comando repita-até só é utilizado em fluxogramas e não está presente na linguagem C.
 Embora esteja presente em outras linguagens, como Ruby.
 
-Na linguagem C há o comando repita-enquanto (**do-while**)
+Na linguagem C há o comando repita-enquanto (**do-while**), que repete o bloco enquanto
+a condição for verdadeira (o contrário do **repita-até**)
 
 ----
 
@@ -256,7 +262,8 @@ fimpara
 
 * Além de ser usado para contagens, o comando **para** traz explicitamente as três estruturas
 de um comando de repetição: inicialização, condição e atualização.
-* A condição sempre é menor ou igual OU maior ou igual (quando a contagem é decrescente)
+* A condição sempre é menor ou igual OU maior ou igual (quando a contagem é decrescente),
+em relação à variável contadora e o valor expresso por **até**.
 
 ----
 
