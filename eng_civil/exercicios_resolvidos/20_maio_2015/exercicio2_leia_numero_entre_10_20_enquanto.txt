@@ -1,0 +1,30 @@
+Autor: Everaldo Gomes 20/05/2015
+
+algoritmo: leia um número entre 10 e 20 utilizando a estrutura enquanto
+
+variaveis
+  n : inteiro;
+
+inicio
+  leia(n);
+  enquanto(n < 10 ou n > 20) faça
+    leia(n);
+  fimenquanto
+fimalgoritmo
+
+
+Segunda versão
+
+algoritmo: leia um número entre 10 e 20 utilizando a estrutura enquanto
+
+variaveis
+  n : inteiro;
+
+inicio
+  n = -1; //inicializa n com um valor qualquer, pra evitar repetir o comando leia(n);
+  enquanto(n < 10 ou n > 20) faça
+    leia(n);
+  fimenquanto
+fimalgoritmo
+
+

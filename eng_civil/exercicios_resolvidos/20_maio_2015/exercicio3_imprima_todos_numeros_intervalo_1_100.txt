@@ -1,0 +1,69 @@
+Autor: Everaldo Gomes - 20/05/2015 - everaldo.gomes@pucpr.br
+
+algoritmo: imprima todos os números no intervalo de 1 a 100
+
+variaveis
+  i : inteiro;
+
+inicio
+  para i de 1 até 100 faça
+    imprima(i, ' ');
+  fimpara
+fimalgoritmo
+
+
+Segunda versão, utilizando enquanto
+
+
+algoritmo: imprima todos os números no intervalo de 1 a 100
+
+variaveis
+  i : inteiro;
+
+inicio
+  i = 1; //inicialização
+  enquanto(i <= 100) faça
+    imprima(i, ' ');
+    i = i + 1; //atualização
+  fimenquanto
+fimalgoritmo
+
+
+Terceira versão, utilizando repita-até
+
+
+algoritmo: imprima todos os números no intervalo de 1 a 100
+
+variaveis
+  i : inteiro;
+
+inicio
+  i = 1; //inicialização
+  repita
+    imprima(i, ' ');
+    i = i + 1; //atualização
+  até(i > 100); # note que a condição do repita-até é o complemento ("contrário") da condição do enquanto (versão 2) -> i > 100 é o complemento de i <= 100
+fimalgoritmo
+
+
+Quarta versão, utilizando repita-enquanto ou faça-enquanto (é o equivalente ao do-while da linguagem C)
+
+
+algoritmo: imprima todos os números no intervalo de 1 a 100
+
+variaveis
+  i : inteiro;
+
+inicio
+  i = 1; //inicialização
+  repita # poderia ser também faça
+    imprima(i, ' ');
+    i = i + 1; //atualização
+  enquanto(i <= 100); # note que a condição do repita-enquanto é o complemento ("contrário") da condição do repita-até (versão 3) -> i > 100 é o complemento de i <= 100
+fimalgoritmo
+
+
+
+# As quatro versões ilustram que há várias maneiras de solucionar um problema, como temos enfatizado no curso.
+# Note que a primeira versão é a mais simples e adequada para contagens - o comando para deixa óbvio o processo de inicialização, condição e atualização de um loop
+

@@ -1,0 +1,14 @@
+Autor: Everaldo Gomes 20/05/2015
+algoritmo: leia um número entre 10 e 20 utilizando a estrutura repita-até
+
+variaveis
+  n : inteiro;
+
+inicio
+  repita
+    leia(n);
+  até(n >= 10 e n <= 20);
+fimalgoritmo
+
+
+

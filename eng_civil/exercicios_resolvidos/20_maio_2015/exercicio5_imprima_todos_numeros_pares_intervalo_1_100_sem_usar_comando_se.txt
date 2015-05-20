@@ -1,0 +1,86 @@
+Autor: Everaldo Gomes - 20/05/2015 - everaldo.gomes@pucpr.br
+
+algoritmo: imprima todos os números pares no intervalo de 1 a 100, sem usar o comando se
+
+variaveis
+  i : inteiro;
+
+inicio
+  para i de 2 até 100 passo 2 faça # o segredo está em usar passo 2. Dessa forma a variável i vai ter os seguintes valores: {2, 4, 6, 8, ..., 100}
+                                   # lembrando que 2 é o primeiro número par entre 1 a 100, por isso i é inicializado com 2
+    imprima(i, ' ');
+  fimpara
+fimalgoritmo
+
+
+Segunda Versão, utilizando o comando enquanto
+
+algoritmo: imprima todos os números pares no intervalo de 1 a 100, sem usar o comando se
+
+variaveis
+  i : inteiro;
+
+inicio
+  i = 2;
+  enquanto(i <= 100) faça
+    imprima(i, ' ');
+    i = i + 2; //conta de 2 em 2 - comando de atualização da condição
+  fimenquanto
+fimalgoritmo
+
+
+Terceira Versão, utilizando o comando repita-até
+
+algoritmo: imprima todos os números pares no intervalo de 1 a 100, sem usar o comando se
+
+variaveis
+  i : inteiro;
+
+inicio
+  i = 2;
+  repita
+    imprima(i, ' ');
+    i = i + 2; //conta de 2 em 2 - comando de atualização da condição
+  até(i > 100);
+fimalgoritmo
+
+
+Terceira Versão, utilizando o comando repita-enquanto
+
+algoritmo: imprima todos os números pares no intervalo de 1 a 100, sem usar o comando se
+
+variaveis
+  i : inteiro;
+
+inicio
+  i = 2;
+  repita # poderia ser também "faça"
+    imprima(i, ' ');
+    i = i + 2; //conta de 2 em 2 - comando de atualização da condição
+  enquanto(i <= 100);
+fimalgoritmo
+
+###########Versão Bônus###############
+
+Essa é a versão "proibida", que não deveria ter sido feita, porque utiliza o comando se
+
+algoritmo: imprima todos os números pares no intervalo de 1 a 100, sem usar o comando se
+
+variaveis
+  i : inteiro;
+
+inicio
+  i = 1;
+  para i de 1 até 100 faça
+    se(i mod 2 == 0) //se o número é par
+      imprima(i, ' ');
+    fimse
+  fimpara
+fimalgoritmo
+
+
+
+
+
+
+
