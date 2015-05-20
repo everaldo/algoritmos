@@ -1,0 +1,4 @@
+repita
+  <comandos>
+  <atualização>
+até (<condição>)

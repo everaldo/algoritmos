@@ -1,0 +1,5 @@
+<inicialização>
+enquanto (<condição>) faça
+  <comandos>
+  <atualização>
+fimenquanto
