@@ -1,10 +1,12 @@
 # Algoritmos e Programação
 
-Turma: Engenharia de Alimentos
+Turmas: Engenharia de Alimentos e Engenharia Civil
 
 ## Vetores
 
-Aula 25/05/2015
+Aula 25/05/2015 (Engenharia de Alimentos)
+
+Aula 27/05/2015 (Engenharia Civil)
 
 ----
 # Vetores (Arranjos, ou Arrays, em inglês)
