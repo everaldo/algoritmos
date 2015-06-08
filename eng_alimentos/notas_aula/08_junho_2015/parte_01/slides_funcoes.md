@@ -452,9 +452,9 @@ entre o que fazer (trocar) do como fazer (como é realizada a troca)
     int a, b, maior;
 
     if(a > b)
-      maior = b;
-    else
       maior = a;
+    else
+      maior = b;
 
 -----
 
